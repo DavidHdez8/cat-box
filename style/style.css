@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -11,6 +11,7 @@ nav {
     align-items: center;
     padding: 10px;
     background-color: #7ACC2D;
+    margin-bottom: -80px;
 }
 
 nav a {
@@ -29,4 +30,51 @@ nav li {
 
 nav ul {
     display: flex;
+}
+
+.section__main {
+    padding: 15%;
+    text-align: center;
+}
+
+.section__products {
+    background-image: url("../img/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    margin-top: -50px;
+}
+
+.container__products--item{
+    padding: 10px;
+    margin-top: -400px;
+}
+
+.section__products--item .container__products--item {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 2px black;
+    margin-right: 20px;
+}
+
+.container__products--img {
+    text-align: center;
+}
+
+.main__button {
+    background-color: #7ACC2D;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    justify-content: center;
+    border: 0;
+    border-radius: 2px;
+}
+
+.main__button:hover {
+    background-color: #5E9E22;
+    cursor: pointer;
 }
