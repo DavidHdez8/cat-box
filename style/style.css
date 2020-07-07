@@ -59,7 +59,7 @@ nav ul {
 
 .section__products {
     background-image: url("../img/curve.png");
-    max-height: 50px;
+    /* max-height: 50px; */
     background-size: cover;
     background-position: center top;
     padding: 20%;
