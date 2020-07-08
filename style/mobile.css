@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .section__products {
         display: inherit;
         height: auto;
@@ -24,4 +24,16 @@
     .mentions {
         display: inherit;
     }
+
+    .section__container1,
+    .section__container2,
+    .section__container3 {
+        display: inherit;
+        justify-content: center;
+    }
+
+    .section img {
+        width: 150px;
+    }
 }
+
