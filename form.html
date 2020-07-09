@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/form.css">
     <link rel="stylesheet" href="./style/animations.css">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
@@ -34,19 +33,21 @@
                 </div>
             </div>
             <div class="form__data">
-                <label>
-                    <p>Nombre</p>
-                    <input type="text"/>
-                </label>
-                <label>
-                    <p>Mail</p>
-                    <input type="text"/>
-                </label>
-                <label>
-                    <p>Teléfono</p>
-                    <input type="text"/>
-                </label>
-                <button>Confirmar pago</button>
+                <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CJ8RARARW5RQE" method="post">
+                    <label>
+                        <p>Nombre</p>
+                        <input type="text" class="data__input">
+                    </label>
+                    <label>
+                        <p>Mail</p>
+                        <input type="text" class="data__input">
+                    </label>
+                    <label>
+                        <p>Teléfono</p>
+                        <input type="text" class="data__input">
+                    </label>
+                    <input type="submit" class="form__data--input" name="Enviar" value="Confirmar pago">
+                </form>
             </div>
         </div>
     </section>
